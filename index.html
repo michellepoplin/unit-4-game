@@ -1,0 +1,63 @@
+<!Doctype html>
+<html>
+<head>
+    <title>unit-4-game</title>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/reset.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+    <header>
+      <h1>Crystal Collector Game!</h1>
+    </header>
+
+    <section>
+        <div class= "direction">
+            <h2>Let's Play!</h2>
+             <p>You will start with a random number.</p>  
+             <p>Choose a Crystal. Each Crystal has a specific value and by clicking you can collet points.</p>
+             <p>The object is to keep collecting gems and reach the magic number. Match it and you win! :) Go over and you lose. :(</p>
+             <p>You can't see the point value until you select it. We can't make it too easy!!</p>
+             <p>Think you have memorized the value of each gem? Tricky tricky, the value of each gem resets with a new random number at the start of each new game.</p>
+        </div>
+
+        <div class= "startNumber">
+            <h3><u>Starting Number</u></h3>
+                
+            <h2><span id="numberStart"></span></h2>
+            
+        </div>
+
+
+        <div class= "crystals">
+                <img id="crystalOne" src="assets/images/gem1.png" alt="gem1"> 
+                <img id="crystalTwo" src="assets/images/gem2.png" alt="gem2"> 
+                <img id="crystalThree" src="assets/images/gem3.png" alt="gem3"> 
+                <img id="crystalFour" src="assets/images/gem5.png" alt="gem4"> 
+        </div>
+
+        <div class="score">
+            <h3><u>Your Total Score</u></h3>
+            <h2><span id="totalScore"></span></h2>      
+        </div>
+
+         <!-- <div class= "counter"> -->
+             <div class= "wins">
+                    <h3><u>Wins</u></h3>
+                    <h2><span id= "winner"></span></h2>
+                 
+             </div>
+            <div class="losses">
+                    <h3><u>losses</u></h3>
+                    <h2><span id= "loser"></span></h2>
+            </div>   
+         <!-- </div>  -->
+    </section>
+
+</body>
+
+<script src="assets/javascript/game.js"></script>
+
+</html>
