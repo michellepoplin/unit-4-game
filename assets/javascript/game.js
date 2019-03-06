@@ -1,16 +1,22 @@
 
+$(document).ready(function(){
+    var yourMatchingNumber = 0;
+    var randomNum = randomNumGen();
+    var wins = 0;
+    var losses = 0;
+    var crystals;
+})
+
 var game = { 
     crystalValues: [],
     targetNumber: 0,
     score: 0,
-    wins: 0,
-    losses: 0,
     
     gameSet: function() {
         this.score = 0;
         
         for (var i = 0; i < 4; i++) {
-            var number = Math.floor(Math.random()*(13 - 1) + 1);
+            var number = Math.floor(Math.random()* 12) + 1,
             
             if (this.crystalValues.includes(number)) {
                 i--;
