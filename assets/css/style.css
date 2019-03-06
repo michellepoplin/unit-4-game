@@ -1,6 +1,6 @@
 
 body{
-  background-image: url("../images/memphis-colorful.png");
+  background-image: url("../images/memphis-colorful.jpg");
 
 }
 
@@ -34,7 +34,7 @@ header {
     margin: 0 auto;
     top: 80px;
     padding: 20px;
-    background: #ffffff;
+    background: #fcc7c7;
     border: 1px solid #dddddd;
 }
 
@@ -45,7 +45,7 @@ header {
     left: 50px;
     top: 160px;
 
-    background: #ffffff;
+    background: #fcc7c7;
     border: 1px solid #dddddd;
     text-align: center;
 }
@@ -57,7 +57,7 @@ header {
     right: 50px;
     bottom: 100px;
     text-align: center;
-    background: #ffffff;
+    background: #fcc7c7;
     border: 1px solid #dddddd;
 }
 
@@ -68,7 +68,7 @@ header {
     top:50px;
     left: 400px;
     text-align: center;
-    background: #ffffff;
+    background: #fcc7c7;
     border: 1px solid #dddddd;
 }
 
@@ -79,7 +79,7 @@ header {
     bottom:59px;
     right: 400px;
     text-align: center;
-    background: #ffffff;
+    background: #fcc7c7;
     border: 1px solid #dddddd;
 }
 
